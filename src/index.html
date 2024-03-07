@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Húrnégyszög</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <header>
+                    <h1>Húrnégyszög</h1>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <main>
+                    <h2>Húrnégyszög területszámítás</h2>
+                    <div class="triangleForm">
+                        <div class="input">
+                            <label for="base" class="form-label">A oldal</label>
+                            <input type="number" name="base" id="base" required class="form-control">
+                        </div>
+                        <div class="input">
+                            <label for="baseb" class="form-label">B oldal</label>
+                            <input type="number" name="baseb" id="baseb" required class="form-control">
+                        </div>
+                        <div class="input">
+                            <label for="basec" class="form-label">C oldal</label>
+                            <input type="number" name="basec" id="basec" required class="form-control">
+                        </div>
+                        <div class="input">
+                            <label for="based" class="form-label">D oldal</label>
+                            <input type="number" name="based" id="based" required class="form-control">
+                        </div>
+                        <div>
+                            <button id="calcBtn" class="btn btn-success mt-2">Számítás</button>
+                        </div>
+                        <div class="input">
+                            <label for="area" class="form-label">Terület</label>
+                            <input type="number" name="area" id="area" readonly class="form-control mb-4">
+                        </div>
+                        <div class="input">
+                            <label for="district" class="form-label">Félkerület</label>
+                            <input type="number" name="district" id="district" readonly class="form-control">
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
