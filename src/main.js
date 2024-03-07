@@ -4,7 +4,7 @@ Author: Varas-Tóth Gergő
 Copyright: 2024, Varas-Tóth Gergő
 Group: Szoft I/1/N
 Date: 2024-03-07
-Github: https://github.com/janos12345/
+Github: https://github.com/Valaki2004/hurnegyter
 Licenc: GNU GPL
 */
 const baseInput = document.querySelector("#base")
@@ -23,8 +23,8 @@ function start(){
     const basec = baseCInput.value
     const based = baseDInput.value
     const felker = (base + baseb + basec + based)/2
-    const felkerteruletizeakarmi = (felker-base) * (felker - baseb) * (felker - basec) * (felker - based)
-    const terulet = (Math.sqrt(felkerteruletizeakarmi))
+    const hosszut = (felker-base) * (felker - baseb) * (felker - basec) * (felker - based)
+    const terulet = (Math.sqrt(hosszut))
     areaInput.value = terulet
     districtInput.value = felker
 }  
